@@ -1,0 +1,54 @@
+{
+    "navbar": {
+        "0": "Home",
+        "1": "About Us",
+        "2": "Work done"
+    },
+    "about": {
+        "0": "ABOUT US",
+        "1": "Our Activity",
+        "2": "We have been operating for 19 years! We have a lot of experience in the field of 3D, web programming, game development, VR, and other technologies!",
+        "3": "Detail",
+        "4": "Through Webity.uz, you can set up your own business or personal web page according to your imagination and with our specifications!",
+        "5": "Achievements",
+        "6": "We have 250+ websites, 3D and 2D games, AR software, 500+ 3D models since we started our business!"
+    },
+    "works": {
+        "0": "OUR WORK",
+        "1": "Here you can get acquainted with the elements, designs, additions that you can add to your page!",
+        "2": "3D",
+        "3": "Video",
+        "4": "Logo and Business Card",
+        "5": "Elements"
+    },
+    "header": {
+        "0": "The most creative team in Uzbekistan",
+        "1": "Team of Professionals"
+    },
+    "facts": {
+        "0": "SOME FACTS",
+        "1": "YEAR IN TRUST",
+        "2": "CUSTOMERS",
+        "3": "PROJECTS",
+        "4": "OVERALL ACHIEVEMENTS"
+    },
+    "Message":{
+        "0": "APPLY",
+        "1": "You can send your questions via Telegram, Instagram, @mail or call!",
+        "2": "Contact us!",
+        "3": "Writing by email:",
+        "4": "Your Name",
+        "5": "Email",
+        "6": "Write your question here...",
+        "7": "Send mail"
+    },
+    "notfound": {
+        "0": "404",
+        "1": "Page Not Found",
+        "2": "Back"
+    },
+    "footer": {
+        "0": "We are glad that you used our service!",
+        "1": "Social Networks"
+    }
+}
