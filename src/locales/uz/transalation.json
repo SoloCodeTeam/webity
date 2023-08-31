@@ -1,64 +1,54 @@
 {
-    "Navbar": {
-        "0": "BOSH SAHIFA",
-        "1": "BIZ HAQIMIZDA",
-        "2": "BAJARILGAN ISHLAR",
-        "3": "KONTAKTLAR"
+    "navbar": {
+        "0": "Bosh sahifa",
+        "1": "Biz haqimizda",
+        "2": "Bajarilgan ishlar"
     },
-    "aboutComp": {
-        "0": "BOSH SAHIFA",
-        "1": "Opera brendni rivojlantirish, strategiya bilan ishlash, yangidan-yangi nyuanslarga tayangan holda biznes muammolarini yechish, tahlil qilish va tadqiqot o'tkazishga qaratilgan jamoa.",
-        "2": "Missiyamiz",
-        "3": "Biznes egalarini mahsulot yoki xizmat emas, balki emotsiya sotish darajasiga olib chiqish",
-        "4": "Maqsadimiz",
-        "5": "Endi kirib kelmoqchi bo'lgan mahsulot yoki xizmatdan iborat bizneslarni bozorga qiymatli tarzda taqdim etish.",
-        "6": "Rivojlanishda to'siqqa uchragan va raqobatdan orqada qolgan bizneslarni bozorda saqlab qolish.",
-        "7": "Mahsulot yoki xizmati tobora kengayib borayotgan biznesni katta masshtabga chiqarish.",
-        "8": "Asosiy qadriyatlarimiz",
-        "9": "Haqiqiylik",
-        "10": "Kreativlik",
-        "11": "G'amxo'rlik",
-        "12": "Maksimallik va professionallik",
-        "13": "Biz har doim tanish narsalarga yangicha nazar tashlaydigan va nostandart yechimlar tufayli mijoz byudjetini tejaydigan mustaqil ijodiy agentligimiz.",
-        "14" : "Batafsil"
+    "about": {
+        "0": "BIZ HAQIMIZDA",
+        "1": "Faoliyatimiz",
+        "2": "Biz 19 yildan beri faoliyat yuritib kelmoqdamiz! Asosan 3D sohasi,web dasturlash,game developing,vr,ar texnologiyalrari borasida tajriabmiz katta!",
+        "3": "Tafsilot",
+        "4": "Webity.uz orqali siz o'zingiz tasavvuringizdagi va bizning tafsiyalarimiz bilan o'z biznes yoki shaxsiy web sahifangizni yo'lga qo'yishingiz mumkin!",
+        "5": "Yutuqlar",
+        "6": "Biz faoliyatimiz boshlangandan beri 250+ web saytlar,3D va 2D o'yinlar, ar dasturi,500+ 3D modellarimiz bor!"
     },
-    "Footer": {
-        "0": "Biz bilan aloqa",
-        "1": "Tafsilotlaringizni qoldiring va biz tez orada siz bilan bog'lanamiz",
-        "2": "Bizning manzilimiz",
-        "3": "Tashkent shaxar, Olmazor tumani, Kichik halqa yo'li, 72 A uy.",
-        "4": "Yuborish"
+    "works": {
+        "0": "ISHLARIMIZ",
+        "1": "Bu yerda o'z sahifangizga qo'shishingiz mumkin bo'lgan elementlar,dizaynlar,qo'shimchalar bilan tanishib chiqishingiz mumkin!",
+        "2": "3D",
+        "3": "Video",
+        "4": "Logo va Vizitka",
+        "5": "Elementlar"
     },
     "header": {
-        "0": "Biz bizneslarni rivojlantiramiz, korxonalarga bozorda emotsional imij yaratishda yordam beramiz."
+        "0": "O'zbekistondagi eng kreativ jamoa",
+        "1": "Professionallar jamoasi"
     },
-    "HelpComponent": {
-        "0": "XIZMATLAR",
-        "1": "Brending",
-        "2": "Marketing",
-        "3": "Dizayn"
+    "facts": {
+        "0": "BA'ZI FAKTLAR",
+        "1": "YIL ISHONCHDA",
+        "2": "MIJOZLAR",
+        "3": "PROYEKTLAR",
+        "4": "UMUMIY YUTUQLAR"
     },
-    "MensComponent":
-     {
-        "0": "BIZGA ISHONISHADI"
+    "message":{
+        "0": "MUROJAAT QILISH",
+        "1": "Savollaringizni Telegram,Instagram,@mail orqali yo'llashingiz yoki qo'ng'iroq qilishingiz mumkin!",
+        "2": "Biz bilan bog'laning!",
+        "3": "Email orqali yozish:",
+        "4": "Ismingiz",
+        "5": "Email",
+        "6": "Savolingizni shu yerga yozing ...",
+        "7": "Xatni yuborish"
     },
-    "ProjectComponent":
-     {
-        "0": "Barchasini ko'rish"
-    },
-    "Message":{
-        "0": "Ism/Familiya",
-        "1": "Xabaringizni kiriting ...",
-        "2": "Yoki siz bizga o'zingiz aloqaga chiqishingiz mumkin",
-        "3": "Telefon raqamingizni qoldiring va biz sizga tez orada aloqaga chiqamiz",
-        "4": "Muvaffaqiyat",
-        "5": "Sizning Xabaringiz Muvaffaqiyatli jo'natildi",
-        "6": "Xatolik",
-        "7": "Sizning Xabaringizda Xatolik aniqlandi. Iltimos qayta urinib ko'ring!"
-    },
-    "NotFoundPage": {
+    "notfound": {
         "0": "404",
         "1": "Saxifa Topilmadi",
         "2": "Ortga Qayitsh"
+    },
+    "footer": {
+        "0": "Bizning xizmatimizdan foydalanganingizdan mamnunmiz!",
+        "1": "Ijtiomoiy tarmoqlar"
     }
 }
