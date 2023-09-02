@@ -1,0 +1,27 @@
+.GearBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.GearBox span{
+    height: 0.5vw;
+    width: 10vw;
+    background-color: var(--gray);
+}
+.GearBox i{
+    color: var(--gray);
+    margin:0 2vw;
+    -webkit-transform: rotate(360deg);
+    -webkit-transition-duration: 1s;
+    -webkit-transition-delay: now;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+}
+.GearBox span:nth-child(1){
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+}
+.GearBox span:nth-child(3){
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
