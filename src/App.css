@@ -27,7 +27,8 @@ body {
 :root{
   --white: #FFF;
   --black: #062033;
-  --gray: rgb(212, 211, 211);
+  --gray: rgb(226, 226, 226);
   --grey: #6a737b;
   --lime: #0eb493;
+  --white-gray: rgb(241, 241, 241);
 }
