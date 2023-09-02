@@ -1,0 +1,32 @@
+.NavbarComp{
+    z-index: 2;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(16, 22, 54, 0.2);
+    /* padding: 1.2%; */
+}
+.NavbarComp h1{
+    font-size: 2.7vw;
+    color: var(--white);
+}
+.NavbarComp ul{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30%;
+}
+.NavbarComp ul li{
+    cursor: pointer;
+    padding: 3.3%;
+}
+.NavbarComp ul li:hover{
+    
+}
+.NavbarComp ul li a{
+    font-size: 1.25vw;
+    color: var(--white);
+}
