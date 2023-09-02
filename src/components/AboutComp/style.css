@@ -1,0 +1,12 @@
+.AboutComp h1{
+    font-size: 2vw;
+    color: var(--lime);
+}
+.AboutComp p{
+    font-size: 1vw;
+    color: var(--grey);
+}
+.AboutComp h2{
+    font-size: 1.5vw;
+    color: var(--black);
+}
