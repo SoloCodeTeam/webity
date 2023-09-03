@@ -76,6 +76,7 @@
     }
     .FooterComp ul li{
         align-items: center;
+        margin: 5% 0;
     }
     .FooterComp h3{
         width: 100%;
