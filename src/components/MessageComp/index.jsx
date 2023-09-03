@@ -17,20 +17,6 @@ export function MessageComp() {
     };
     const sendTelegram = () => {
         ready();
-        // let settings = {
-        //     "async": true,
-        //     "crossDomain": true,
-        //     "url": "https://api.telegram.org/bot" + telegram_bot_id + "/sendMessage",
-        //     "method": "POST",
-        //     "headers": {
-        //         "Content-Type": "application/json",
-        //         "cache-control": "no-cache"
-        //     },
-        //     "data": JSON.stringify({
-        //         "chat_id": chat_id,
-        //         "text": sendMessage
-        //     })
-        // };
         axios.post("https://api.telegram.org/bot" + telegram_bot_id + "/sendMessage",{"chat_id": chat_id,"text":sendMessage})
         name.current.value = "";
         message.current.value = "";
