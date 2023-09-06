@@ -1,0 +1,11 @@
+Model Information:
+* title:	pot
+* source:	https://sketchfab.com/3d-models/pot-092160ab6c324d2289bbb67e6e5d5503
+* author:	vivikeram (https://sketchfab.com/vivikeram)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "pot" (https://sketchfab.com/3d-models/pot-092160ab6c324d2289bbb67e6e5d5503) by vivikeram (https://sketchfab.com/vivikeram) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
