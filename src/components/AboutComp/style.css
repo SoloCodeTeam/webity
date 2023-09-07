@@ -1,12 +1,91 @@
+.AboutComp{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--white-gray);
+    padding: 4% 0;
+}
 .AboutComp h1{
     font-size: 2vw;
     color: var(--lime);
+    font-weight: bold;
 }
-.AboutComp p{
-    font-size: 1vw;
-    color: var(--grey);
+.AboutComp ul{
+    display: flex;
+    align-items: flex-start;
+    margin: 3% 10%;
 }
-.AboutComp h2{
-    font-size: 1.5vw;
+.AboutComp ul li{
+    display: flex;
+    align-items: flex-start;
+    margin: 0 2%;
+}
+.AboutComp ul li i{
+    font-size: 2vw;
+    color: var(--lime);
+    border: 0.2vw solid var(--lime);
+    border-radius: 50%;
+    padding: 3%;
+    margin-right: 4%;
+}
+.AboutComp ul li span h2{
     color: var(--black);
+    margin: 4% 0;
+    font-size: 1.7vw;
+}
+.AboutComp ul li span p{
+    color: var(--grey);
+    font-size: 1vw;
+}
+@media(max-width: 1000px){
+    .AboutComp{
+        padding: 5% 0;
+    }
+    .AboutComp h1{
+        font-size: 4vw;
+    }
+    .AboutComp ul li i{
+        margin-right: 5%;
+        font-size: 4.5vw;
+    }
+    .AboutComp ul li span h2{
+        font-size: 2.3vw;
+    }
+    .AboutComp ul li span p{
+        font-size: 1.5vw;
+    }
+}
+@media(max-width: 800px){
+    .AboutComp{
+        padding: 6% 0;
+    }
+    .AboutComp h1{
+        font-size: 6.5vw;
+    }
+    .AboutComp ul{
+        flex-direction: column;
+    }
+    .AboutComp ul li{
+        flex-direction: column;
+        margin: 5% 0;
+    }
+    .AboutComp ul li span{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .AboutComp ul li i{
+        margin: 0 40%;
+        margin-right: 7%;
+        font-size: 6vw;
+        padding: 5%;
+    }
+    .AboutComp ul li span h2{
+        font-size: 4vw;
+    }
+    .AboutComp ul li span p{
+        font-size: 3vw;
+    }
 }

@@ -14,7 +14,7 @@ a{
 h1,h2,h3,h4,h5,h6,p{
   cursor: default;
 }
-button, select{
+button, select, input, textarea{
   border: none;
   outline: none;
   cursor: pointer;
@@ -28,7 +28,7 @@ body {
 :root{
   --white: #FFF;
   --black: #062033;
-  --gray: rgb(212, 211, 211);
+  --gray: rgb(226, 226, 226);
   --grey: #6a737b;
   --lime: #0eb493;
 }

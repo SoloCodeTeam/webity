@@ -1,0 +1,85 @@
+.FooterComp{
+    background-color: var(--lime);
+    color: var(--white);
+    width: 100%;
+    padding: 5% 5%;
+}
+.FooterComp a{
+    color: var(--white);
+    font-size: 1.5vw;
+    margin: 0.7vw 0;
+}
+.FooterComp a:hover{
+    transform: translateY(-.5vw);
+}
+.FooterComp i {
+    margin-right: .5vw;
+}
+.FooterComp h3{
+    width: 15vw;
+    font-size: 1.5vw;
+    margin-bottom: 1vw;
+}
+.FooterComp ul{
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.FooterComp ul li{
+    display: flex;
+    flex-direction: column;
+    margin: 0 5%;
+}
+.FooterComp p{
+    text-align: center;
+    margin-top: 2vw;
+    font-size: 1.2vw;
+}
+@media(max-width: 1000px){
+    .FooterComp a{
+        font-size: 2.3vw;
+    }
+    .FooterComp h3{
+        font-size: 2.5vw;
+    }
+    .FooterComp ul li{
+        margin: 5% 0;
+    }
+    .FooterComp p{
+        font-size: 2vw;
+        margin: 0 25%;
+        width: max-content;
+    }
+}
+@media(max-width: 800px){
+    .FooterComp a{
+        font-size: 3vw;
+    }
+    .FooterComp h3{
+        font-size: 3.2vw;
+    }
+    .FooterComp ul li{
+        margin: 5% 15%;
+    }
+    .FooterComp p{
+        font-size: 2.5vw;
+    }
+    .FooterComp iframe{
+        width: 75vw;
+        height: 65vw;
+    }
+}
+@media(max-width: 600px){
+    .FooterComp ul{
+        flex-direction: column;
+        align-items: center;
+    }
+    .FooterComp ul li{
+        align-items: center;
+        margin: 5% 0;
+    }
+    .FooterComp h3{
+        width: 100%;
+        text-align: center;
+    }
+}

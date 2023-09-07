@@ -36,9 +36,9 @@
         "0": "APPLY",
         "1": "You can send your questions via Telegram, Instagram, @mail or call!",
         "2": "Contact us!",
-        "3": "Writing by email:",
+        "3": "Writing a letter:",
         "4": "Your Name",
-        "5": "Email",
+        "5": "Your phone number",
         "6": "Write your question here...",
         "7": "Send mail"
     },
@@ -49,6 +49,7 @@
     },
     "footer": {
         "0": "We are glad that you used our service!",
-        "1": "Social Networks"
+        "1": "Social Networks",
+        "2": "Our address"
     }
 }

@@ -3,6 +3,9 @@ import { AboutComp } from "../../components/AboutComp";
 import { HeaderComp } from "../../components/HeaderComp";
 import { InfoComp } from "../../components/InfoComp";
 import { WorkComp } from "../../components/WorkComp";
+import { FooterComp } from "../../components/FooterComp";
+import { MessageComp } from "../../components/MessageComp";
+
 
 export function HomePage() {
    return(
@@ -13,6 +16,8 @@ export function HomePage() {
         <AboutComp/>
         <WorkComp/>
         <InfoComp/>
+        <MessageComp/>
+        <FooterComp/>
        </div>
    )
 }

@@ -1,0 +1,137 @@
+.MessageComp{
+    padding: 5% 10%;
+    text-align: center;
+}
+.MessageComp h1{
+    color: var(--lime);
+    font-size: 2.5vw;
+}
+.MessageComp p{
+    color: var(--grey);
+    font-weight: bold;
+    margin: 4% 0;
+    font-size: 1.5vw;
+}
+.MessageComp .MessageBox{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+.MessageComp form{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin: 0 5%;
+}
+.MessageComp form h2{
+    color: var(--black);
+    margin: 2% 0;
+    font-size: 1.7vw;
+}
+.MessageComp form span{
+    display: flex;
+    align-items: center;
+}
+.MessageComp form input,.MessageComp form textarea{
+    background: none;
+    border-bottom: .2vw solid var(--lime);
+    font-size: 1.5vw;
+    margin: 5%;
+    padding: 2%;
+}
+.MessageComp form textarea{
+    min-height: 3.2vw;
+    max-height: 7vw;
+    min-width: 40vw;
+    max-width: 40vw;
+}
+.MessageComp form button{
+    background: var(--lime);
+    color: var(--white);
+    font-size: 1.2vw;
+    padding: 2%;
+    border: .2vw solid var(--white);
+    border-radius: .5vw;
+    margin-left: auto;
+}
+.MessageComp form button:hover{
+    background: none;
+    color: var(--lime);
+    border: .2vw solid var(--lime);
+}
+.MessageComp .LinksBox{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 2%;
+}
+.MessageComp .LinksBox a{
+    margin: 20% 5%;
+    font-size: 2vw;
+    color: var(--grey);
+}
+.MessageComp .LinksBox a:hover{
+    transform: scale(1.2);
+}
+@media(max-width: 1000px){
+    .MessageComp h1{
+        font-size: 4vw;
+    }
+    .MessageComp p{
+        font-size: 2.5vw;
+    }
+    .MessageComp form h2{
+        font-size: 2.3vw;
+    }
+    .MessageComp .LinksBox a{
+        font-size: 3.5vw;
+    }
+    .MessageComp form button{
+        font-size: 2vw;
+    }
+    .MessageComp form input,.MessageComp form textarea{
+        font-size: 2.5vw;
+    }
+    .MessageComp form{
+        margin-right: 10%;
+    }
+    .MessageComp form textarea{
+        min-height: 5.5vw;
+        max-height: 11vw;
+        min-width: 65vw;
+        max-width: 65vw;
+    }
+}
+@media(max-width: 600px){
+    .MessageComp h1{
+        font-size: 6vw;
+    }
+    .MessageComp p{
+        font-size: 3.5vw;
+    }
+    .MessageComp form h2{
+        font-size: 3.3vw;
+    }
+    .MessageComp .LinksBox a{
+        font-size: 5vw;
+    }
+    .MessageComp form button{
+        font-size: 3vw;
+    }
+    .MessageComp form input,.MessageComp form textarea{
+        font-size: 3.5vw;
+    }
+    .MessageComp form span{
+        flex-direction: column;
+    }
+    .MessageComp form input{
+        width: 100%;
+    }
+    .MessageComp form textarea{
+        min-height: 2.5vw;
+        max-height: 11vw;
+        min-width: 65vw;
+        max-width: 65vw;
+    }
+}
