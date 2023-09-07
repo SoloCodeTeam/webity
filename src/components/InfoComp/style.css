@@ -1,0 +1,207 @@
+.InfoComp{
+    width: 100%;
+    background-image: url("https://res.cloudinary.com/dnuh1ejtz/image/upload/v1693499514/webity/city_hg9xnb.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 145%;
+}
+.InfoTexts{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    padding: 5% 0;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgba(6,32,51,.7);
+}
+.InfoTexts h2{
+    color: var(--lime);
+    font-size: 3vw;
+    margin-bottom: 1%;
+    font-weight: 500;
+}
+.InfoTexts ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--white);
+    margin-top: 5%;
+    width: 100%;
+}
+.InfoTexts ul li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 5%;
+    width: 15%;
+    text-align: center;
+}
+.InfoPath{
+    font-size: 4vw;
+    border-radius: 50%;
+    border: .16vw solid var(--white);
+}
+.IP1{
+    padding: 35% 37%;
+}
+.IP2{
+    padding: 35%;
+}
+.IP3{
+    padding: 35% 39%;
+}
+.IP4{
+    padding: 35% 37%; 
+}
+.InfoTexts ul li h3{
+    font-size: 4vw;
+    margin: 3% 0;
+}
+.InfoTexts ul li h4{
+    font-size: 1.5vw;
+    font-weight: 300;
+    width: 100%;
+}
+.InfoCount1::after{
+    content: counter(count1);
+    animation: counter1 2s linear forwards;
+    counter-reset: count1 0;
+}
+.InfoCount2::after{
+    content: counter(count2);
+    animation: counter2 1.5s linear forwards;
+    counter-reset: count2 0;
+}
+.InfoCount3::after{
+    content: counter(count3);
+    animation: counter3 1.5s linear forwards;
+    counter-reset: count3 0;
+}
+.InfoCount4::after{
+    content: counter(count4);
+    animation: counter4 1.5s linear forwards;
+    counter-reset: count4 0;
+}
+
+@keyframes counter1{
+    0%{counter-increment: count1 0;}
+    20%{counter-increment: count1 1;}
+    40%{counter-increment: count1 2;}
+    60%{counter-increment: count1 3;}
+    80%{counter-increment: count1 4;}
+    100%{counter-increment: count1 5;}
+}
+@keyframes counter2{
+    0%{counter-increment: count2 0;}
+    5%{counter-increment: count2 5;}
+    10%{counter-increment: count2 13;}
+    15%{counter-increment: count2 18;}
+    20%{counter-increment: count2 27;}
+    25%{counter-increment: count2 33;}
+    30%{counter-increment: count2 38;}
+    35%{counter-increment: count2 43;}
+    40%{counter-increment: count2 54;}
+    45%{counter-increment: count2 59;}
+    50%{counter-increment: count2 60;}
+    55%{counter-increment: count2 71;}
+    60%{counter-increment: count2 79;}
+    65%{counter-increment: count2 88;}
+    70%{counter-increment: count2 92;}
+    75%{counter-increment: count2 100;}
+    80%{counter-increment: count2 106;}
+    85%{counter-increment: count2 114;}
+    90%{counter-increment: count2 123;}
+    95%{counter-increment: count2 132;}
+    100%{counter-increment: count2 148;}
+}
+@keyframes counter3{
+    0%{counter-increment: count3 0;}
+    5%{counter-increment: count3 39;}
+    10%{counter-increment: count3 53;}
+    15%{counter-increment: count3 64;}
+    20%{counter-increment: count3 71;}
+    25%{counter-increment: count3 82;}
+    30%{counter-increment: count3 105;}
+    35%{counter-increment: count3 124;}
+    40%{counter-increment: count3 142;}
+    45%{counter-increment: count3 173;}
+    50%{counter-increment: count3 197;}
+    55%{counter-increment: count3 201;}
+    60%{counter-increment: count3 214;}
+    65%{counter-increment: count3 223;}
+    70%{counter-increment: count3 256;}
+    75%{counter-increment: count3 267;}
+    80%{counter-increment: count3 289;}
+    85%{counter-increment: count3 302;}
+    90%{counter-increment: count3 321;}
+    95%{counter-increment: count3 334;}
+    100%{counter-increment: count3 348;}
+}
+@keyframes counter4{
+    0%{counter-increment: count4 0;}
+    5%{counter-increment: count4 52;}
+    10%{counter-increment: count4 81;}
+    15%{counter-increment: count4 124;}
+    20%{counter-increment: count4 141;}
+    25%{counter-increment: count4 167;}
+    30%{counter-increment: count4 192;}
+    35%{counter-increment: count4 213;}
+    40%{counter-increment: count4 234;}
+    45%{counter-increment: count4 262;}
+    50%{counter-increment: count4 287;}
+    55%{counter-increment: count4 301;}
+    60%{counter-increment: count4 322;}
+    65%{counter-increment: count4 342;}
+    70%{counter-increment: count4 359;}
+    75%{counter-increment: count4 383;}
+    80%{counter-increment: count4 410;}
+    85%{counter-increment: count4 421;}
+    90%{counter-increment: count4 444;}
+    95%{counter-increment: count4 510;}
+    100%{counter-increment: count4 537;}
+}
+
+@media screen and (max-width:600px) {
+    .InfoComp{
+        background-size: 480%;
+        background-position-y: center;
+    }
+    .InfoTexts h2{
+        font-size: 8vw;
+        margin: 2.5%;
+    } 
+    .InfoTexts{
+        padding: 10% 0;
+    }  
+    .InfoTexts ul{
+        display: block;
+    }
+    .InfoTexts ul li{
+        width: 90%;
+        margin-top: 10%;
+    }
+    .InfoPath{
+        font-size: 20vw;
+        border: .2vw solid var(--white);
+    }
+    .IP1{
+        padding: 20% 22%;
+    }
+    .IP2{
+        padding: 20%;
+    }
+    .IP3{
+        padding: 20% 24%;
+    }
+    .IP4{
+        padding: 20% 22%; 
+    }
+    .InfoTexts ul li h3{
+        font-size: 15vw;
+    }
+    .InfoTexts ul li h4{
+        font-size: 6.5vw;
+    }
+}
