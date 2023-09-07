@@ -13,13 +13,13 @@ i18next
       translation: uz
     },
     ru:{
-      translation:ru
+      translation: ru
     },
     en:{
-      translation:en
+      translation: en
     }
   },
-  lng: window.localStorage.getItem('i18nextLng'),
+  lng: document.cookie.slice(-2),
   fallbackLng: 'uz',
   detection:{
     order:['htmlTag' , 'cookie', 'localStorage', 'path', 'subdomain'],

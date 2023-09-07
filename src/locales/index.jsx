@@ -8,12 +8,13 @@ export function LangSelect() {
     const LanBtnCls = useRef();
     const langug = useRef();
     const LangSel = (e) => {
-        if(e.target.id == "uz") {setLang("🇺🇿")}
-        if(e.target.id == "en") {setLang("🇺🇸")}
-        if(e.target.id == "ru") {setLang("🇷🇺")}
+        if(e.target.id == "uz") {setLang("🇺🇿");document.cookie="uz"}
+        if(e.target.id == "en") {setLang("🇺🇸");document.cookie="en"}
+        if(e.target.id == "ru") {setLang("🇷🇺");document.cookie="ru"}
         LangList.current.style.transform = "scale(0)"
         LanBtn.current.style.display = "flex"
         LanBtnCls.current.style.display = "none"
+        window.location.reload()
     }
     const LangBtn = () => {
         LangList.current.style.transform = "scale(1)"

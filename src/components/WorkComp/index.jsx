@@ -20,9 +20,9 @@ export function WorkComp() {
             <button>{t("works.5")}</button>
         </div>
         <div className="WorkList">
-            {/* <ProjectVideo/>
+            <ProjectVideo/>
             <ProjectImage/>
-            <ProjectAudio/> */}
+            <ProjectAudio/>
         </div>
        </div>
    )
