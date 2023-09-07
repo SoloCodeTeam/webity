@@ -8,7 +8,7 @@ export function NavbarComp() {
     const NavBtn1 = useRef();
     const NavBtn2 = useRef();
     const NavCompMenu = useRef();
-    const [color, setColor] = useState('#10163633')
+    const [color, setColor] = useState('')
     const { t, i18n } = useTranslation();
     const NavBtn = () => {
         NavCompMenu.current.style.animationName = "NavMenuOpen"
@@ -29,7 +29,6 @@ export function NavbarComp() {
         if(window.scrollY !== 700) {
             setColor('#10163633')
         }
-        console.log(color)
     })
     return(
         <div className="NavComp">
