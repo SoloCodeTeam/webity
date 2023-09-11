@@ -23,11 +23,8 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
-<<<<<<< HEAD
-    overflow-y: scroll;
-=======
+   overflow-y: scroll;
   overflow-x: hidden;
->>>>>>> a15a86597d7948d274359ca13f44e2842c1220db
 }
 :root{
   --white: #FFF;
@@ -35,7 +32,6 @@ body {
   --gray: rgb(226, 226, 226);
   --grey: #6a737b;
   --lime: #0eb493;
-<<<<<<< HEAD
   --white-gray: rgb(241, 241, 241);
 }
 ::-webkit-scrollbar{
@@ -47,7 +43,6 @@ body {
   background-color: var(--lime);
   -webkit-box-shadow:0 0 0.1vw rgba(255,255,255,.5);
   -webkit-border-before-color: var(--white);
-=======
 }
 .toUpSide{
   cursor: pointer;
@@ -70,5 +65,4 @@ body {
     right: 4%;
     bottom: 3%;
   }
->>>>>>> a15a86597d7948d274359ca13f44e2842c1220db
 }

@@ -45,7 +45,7 @@
         padding: 5% 0;
     }
     .AboutComp h1{
-        font-size: 8vw;
+        font-size: 4vw;
     }
     .AboutComp ul li i{
         margin-right: 5%;
@@ -64,7 +64,7 @@
         padding: 6% 0;
     }
     .AboutComp h1{
-        font-size: 8vw;
+        font-size: 5vw;
     }
     .AboutComp ul{
         flex-direction: column;
@@ -85,7 +85,7 @@
         padding: 10%;
     }
     .AboutComp ul li span h2{
-        font-size: 6vw;
+        font-size: 5.5vw;
     }
     .AboutComp ul li span p{
         font-size: 3.5vw;

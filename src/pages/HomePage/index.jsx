@@ -13,13 +13,8 @@ export function HomePage() {
         <NavbarComp/>
         <HeaderComp/>
         <AboutComp/>
-<<<<<<< HEAD
-        <ProjectComp/>
-=======
         <WorkComp/>
         <InfoComp/>
-        {/* <button onClick={button}>nivec</button> */}
->>>>>>> a15a86597d7948d274359ca13f44e2842c1220db
         <MessageComp/>
         <FooterComp/>
        </div>

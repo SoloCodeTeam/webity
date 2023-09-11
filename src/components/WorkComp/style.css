@@ -40,13 +40,6 @@
     color: var(--white);
     background-color: var(--lime);
 }
-.WorkList{
-    display: flex;
-    flex-wrap: wrap;
-    width: 90%;
-    width: fit-content;
-}
-
 @media screen and (max-width:600px) {
     .WorkComp h2{
         font-size: 8vw;

@@ -1,6 +1,5 @@
 .Project3D{
     display: flex;
-<<<<<<< HEAD
 }
 .Project3D Canvas{
     height: 30vw;
@@ -11,12 +10,5 @@
     }
     .Project3D Canvas{
         height: 60vw;
-        margin: 3% 0;
     }
-=======
-    flex-wrap: wrap;
-}
-.Project3D Canvas{
-    height: 20vw;
->>>>>>> a15a86597d7948d274359ca13f44e2842c1220db
 }
