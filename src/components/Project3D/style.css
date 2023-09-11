@@ -1,3 +1,15 @@
 .Project3D{
     display: flex;
 }
+.Project3D Canvas{
+    height: 30vw;
+}
+@media(max-width: 650px){
+    .Project3D{
+        overflow-x: scroll;
+    }
+    .Project3D Canvas{
+        height: 60vw;
+        margin: 3% 0;
+    }
+}
