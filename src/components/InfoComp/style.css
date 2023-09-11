@@ -183,25 +183,25 @@
         margin-top: 10%;
     }
     .InfoPath{
-        font-size: 20vw;
+        font-size: 15vw;
         border: .2vw solid var(--white);
     }
     .IP1{
-        padding: 20% 22%;
+        padding: 15% 17%;
     }
     .IP2{
-        padding: 20%;
+        padding: 15%;
     }
     .IP3{
-        padding: 20% 24%;
+        padding: 15% 19%;
     }
     .IP4{
-        padding: 20% 22%; 
+        padding: 15% 17%; 
     }
     .InfoTexts ul li h3{
-        font-size: 15vw;
+        font-size: 12vw;
     }
     .InfoTexts ul li h4{
-        font-size: 6.5vw;
+        font-size: 5.5vw;
     }
 }

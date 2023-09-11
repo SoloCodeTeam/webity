@@ -51,7 +51,7 @@
 @media screen and (max-width:600px) {
     .LangSelect{
         width: 30%;
-        right: 12%;
+        left: 10%;
     }
     .LangBtn, .LangBtnCls{
         font-size: 6vw;

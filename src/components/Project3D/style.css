@@ -1,3 +1,7 @@
 .Project3D{
     display: flex;
+    flex-wrap: wrap;
+}
+.Project3D Canvas{
+    height: 20vw;
 }

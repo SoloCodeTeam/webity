@@ -11,7 +11,7 @@ export function Model1(props) {
     <group ref={group} {...props} dispose={null}>
       <group name="Sketchfab_Scene">
         <group name="Sketchfab_model" rotation={[-Math.PI / 2, 0, 0]}>
-          <group name="clockfbx" rotation={[Math.PI / 2, 0, 0]} scale={0.1}>
+          <group name="clockfbx" rotation={[Math.PI / 2, 0, 0]} scale={0.01}>
             <group name="Object_2">
               <group name="RootNode">
                 <group name="Plane002" position={[0.234, 14.998, 0]} rotation={[-2.951, 0, 0]} scale={100}>
@@ -53,7 +53,7 @@ export function Model2(props) {
     const { nodes, materials } = useGLTF('/models/garbage/scene.gltf')
     return (
       <group {...props} dispose={null}>
-        <group rotation={[-Math.PI / 2, 0, 0]} scale={1}>
+        <group rotation={[-Math.PI / 2, 0, 0]} scale={0.1}>
           <group rotation={[Math.PI / 2, 0, 0]}>
             <group scale={[1, 1.06, 1]}>
               <mesh geometry={nodes.Object_4.geometry} material={materials.Mlleimer_Boden} />
@@ -68,7 +68,7 @@ export function Model3(props) {
   const { nodes, materials } = useGLTF('models/pot/scene.gltf')
   return (
     <group {...props} dispose={null}>
-      <mesh geometry={nodes.Cylinder_Material002_0.geometry} material={materials['Material.002']} position={[0,0,0]} rotation={[-Math.PI / 2, 0, 0]} scale={2} />
+      <mesh geometry={nodes.Cylinder_Material002_0.geometry} material={materials['Material.002']} position={[0,0,0]} rotation={[-Math.PI / 2, 0, 0]} scale={10} />
     </group>
   )
 }
@@ -77,19 +77,19 @@ export function Project3D(){
     return(
         <div className="Project3D">
           <Canvas className="Canvas">
-            <OrbitControls autoRotate={true} enableZoom={false} rotateSpeed={2} autoRotateSpeed={5} target={-0.061775,10,0}/>
+            <OrbitControls autoRotate={true} enableZoom={false} rotateSpeed={2} autoRotateSpeed={5}/>
             <ambientLight intensity={1.5} />
             <spotLight position={[10,15,10]} angle={0.3} />
             <Model1 />
           </Canvas>
           <Canvas className="Canvas">
-            <OrbitControls autoRotate={true} enableZoom={false} rotateSpeed={2} autoRotateSpeed={5} target={-0.061775,10,0}/>
+            <OrbitControls autoRotate={true} enableZoom={false} rotateSpeed={2} autoRotateSpeed={5}/>
             <ambientLight intensity={1.5} />
             <spotLight position={[10,15,10]} angle={0.3} />
             <Model2/>
           </Canvas>
           <Canvas className="Canvas">
-            <OrbitControls autoRotate={true} enableZoom={false} rotateSpeed={2} autoRotateSpeed={5} target={-0.061775,10,0}/>
+            <OrbitControls autoRotate={true} enableZoom={false} rotateSpeed={2} autoRotateSpeed={5}/>
             <ambientLight intensity={1.5} />
             <spotLight position={[10,15,10]} angle={0.3} />
             <Model3/>

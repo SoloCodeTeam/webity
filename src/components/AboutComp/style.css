@@ -4,17 +4,18 @@
     justify-content: center;
     align-items: center;
     background-color: var(--white-gray);
-    padding: 4% 0;
+    padding: 2% 0;
 }
 .AboutComp h1{
-    font-size: 2vw;
+    font-size: 3vw;
+    font-weight: 500;
+    margin: 2%;
     color: var(--lime);
-    font-weight: bold;
 }
 .AboutComp ul{
     display: flex;
     align-items: flex-start;
-    margin: 3% 10%;
+    margin: 3% 8%;
 }
 .AboutComp ul li{
     display: flex;
@@ -22,32 +23,33 @@
     margin: 0 2%;
 }
 .AboutComp ul li i{
-    font-size: 2vw;
+    font-size: 2.5vw;
     color: var(--lime);
     border: 0.2vw solid var(--lime);
     border-radius: 50%;
-    padding: 3%;
-    margin-right: 4%;
+    padding: 6%;
+    margin-right: 6%;
 }
 .AboutComp ul li span h2{
     color: var(--black);
     margin: 4% 0;
-    font-size: 1.7vw;
+    font-size: 2vw;
 }
 .AboutComp ul li span p{
     color: var(--grey);
-    font-size: 1vw;
+    font-size: 1.25vw;
 }
 @media(max-width: 1000px){
     .AboutComp{
+        text-align: center;
         padding: 5% 0;
     }
     .AboutComp h1{
-        font-size: 4vw;
+        font-size: 8vw;
     }
     .AboutComp ul li i{
         margin-right: 5%;
-        font-size: 4.5vw;
+        font-size: 6vw;
     }
     .AboutComp ul li span h2{
         font-size: 2.3vw;
@@ -58,10 +60,11 @@
 }
 @media(max-width: 800px){
     .AboutComp{
+        text-align: center;
         padding: 6% 0;
     }
     .AboutComp h1{
-        font-size: 6.5vw;
+        font-size: 8vw;
     }
     .AboutComp ul{
         flex-direction: column;
@@ -77,15 +80,14 @@
         align-items: center;
     }
     .AboutComp ul li i{
-        margin: 0 40%;
-        margin-right: 7%;
-        font-size: 6vw;
-        padding: 5%;
+        margin: 0 35%;
+        font-size: 8vw;
+        padding: 10%;
     }
     .AboutComp ul li span h2{
-        font-size: 4vw;
+        font-size: 6vw;
     }
     .AboutComp ul li span p{
-        font-size: 3vw;
+        font-size: 3.5vw;
     }
 }

@@ -8,7 +8,7 @@ export function NavbarComp() {
     const NavBtn1 = useRef();
     const NavBtn2 = useRef();
     const NavCompMenu = useRef();
-    const [color, setColor] = useState('')
+    // const [color, setColor] = useState('')
     const { t, i18n } = useTranslation();
     const NavBtn = () => {
         NavCompMenu.current.style.animationName = "NavMenuOpen"
@@ -22,17 +22,17 @@ export function NavbarComp() {
         NavBtn1.current.style.display = "block"
         NavBtn2.current.style.display = "none"
     }
-    window.addEventListener('scroll', () => {
-        if(window.scrollY == 700) {
-            setColor('#0eb493')
-        }
-        if(window.scrollY !== 700) {
-            setColor('#10163633')
-        }
-    })
+    // window.addEventListener('scroll', () => {
+    //     if(window.scrollY == 700) {
+    //         setColor('#0eb493')
+    //     }
+    //     if(window.scrollY !== 700) {
+    //         setColor('#10163633')
+    //     }
+    // })
     return(
         <div className="NavComp">
-            <div style={{backgroundColor:color}} className="NavbarComp">.
+            <div className="NavbarComp">.
                 <h1><a href="#body">webity.uz</a></h1>
                 <LangSelect/>
                 <button className='NavbarCompBtn1' ref={NavBtn1} onClick={NavBtn}><i className='fa-solid fa-bars'></i></button>

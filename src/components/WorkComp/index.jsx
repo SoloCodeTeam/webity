@@ -1,5 +1,6 @@
 import { useTranslation } from 'react-i18next';
 import { GearAnimation } from '../../utils'
+import { Project3D } from '../Project3D';
 import { ProjectAudio } from '../ProjectAudio';
 import { ProjectImage } from '../ProjectImage';
 import { ProjectVideo } from '../ProjectVideo';
@@ -20,9 +21,10 @@ export function WorkComp() {
             <button>{t("works.5")}</button>
         </div>
         <div className="WorkList">
-            <ProjectVideo/>
+            {/* <ProjectVideo/>
             <ProjectImage/>
-            <ProjectAudio/>
+            <ProjectAudio/> */}
+            <Project3D/>
         </div>
        </div>
    )
