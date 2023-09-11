@@ -1,0 +1,94 @@
+.NavbarComp{
+    z-index: 5;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #10163633;
+}
+.NavbarComp h1{
+    font-size: 2.6vw;
+}
+.NavbarComp h1 a{
+    cursor: default;
+    color: var(--white);
+}
+.NavbarCompBtn1, .NavbarCompBtn2{
+    cursor: default;
+    display: none;
+    background: none;
+    font-size: 8vw;
+    color: var(--white);
+    margin-left: 48%;
+}
+.NavbarCompList{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30%;
+}
+.NavbarCompList li{
+    cursor: pointer;
+    padding: 3%;
+    border-top: .16vw solid rgba(16, 22, 54, 0.0);
+}
+.NavbarCompList li:hover{
+    border-top: .16vw solid #32B0EE;
+	background-color: transparent;
+}
+.NavbarCompList li a{
+    font-size: 1.22vw;
+    color: var(--white);
+}
+.NavbarCompMenu{
+    z-index: 1;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: var(--lime);
+    left: 100%;
+    /* animation-name: NavMenuOpen; */
+    animation-duration: 1s;
+}
+.NavbarCompMenu li{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3%;
+}
+.NavbarCompMenu li a{
+    cursor: default;
+    color: var(--white);
+    font-size: 7vw;
+}
+
+@keyframes NavMenuOpen{
+    0% {left: 100%;}
+    100% {left: 0%;}
+}
+@keyframes NavMenuClose{
+    0% {left: 0%;}
+    100% {left: 100%;}
+}
+
+@media screen and (max-width:600px){
+    .NavbarCompBtn1{
+        display: flex;
+    }
+    .NavbarComp{
+        padding: 2.8%;
+    }
+    .NavbarComp h1{
+        font-size: 8vw;
+    }
+    .NavbarCompList{
+        display: none;
+    }    
+}

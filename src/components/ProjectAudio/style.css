@@ -1,0 +1,11 @@
+.ProjectAudio{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1%;
+    margin: 2%;
+}
+.ProjectAudio audio{
+    margin: .5%;
+}

@@ -13,10 +13,10 @@ i18next
       translation: uz
     },
     ru:{
-      translation:ru
+      translation: ru
     },
     en:{
-      translation:en
+      translation: en
     }
   },
   lng: document.cookie,
