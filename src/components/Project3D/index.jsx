@@ -100,20 +100,19 @@ export function Project3D(){
     return(
       <div className="Project3D">
       <Canvas className="Canvas">
-        <OrbitControls autoRotate={true} enableZoom={false} rotateSpeed={2} autoRotateSpeed={5} target={-0.061775,10,0}/>
+        <OrbitControls autoRotate={true} enableZoom={false} rotateSpeed={2} autoRotateSpeed={5}/>
         <ambientLight intensity={1.5} />
-        <OrbitControls autoRotate={true} enableZoom={false} rotateSpeed={2} autoRotateSpeed={5} target={[0,0,0]}/>
         <spotLight position={[10,15,10]} angle={0.3} />
         <Model1 />
       </Canvas>
       <Canvas className="Canvas">
-        <OrbitControls autoRotate={true} enableZoom={false} rotateSpeed={2} autoRotateSpeed={5} target={-0.061775,10,0}/>
+        <OrbitControls autoRotate={true} enableZoom={false} rotateSpeed={2} autoRotateSpeed={5}/>
         <ambientLight intensity={1.5} />
         <spotLight position={[10,15,10]} angle={0.3} />
         <Model2/>
       </Canvas>
       <Canvas className="Canvas">
-        <OrbitControls autoRotate={true} enableZoom={false} rotateSpeed={2} autoRotateSpeed={5} target={-0.061775,10,0}/>
+        <OrbitControls autoRotate={true} enableZoom={false} rotateSpeed={2} autoRotateSpeed={5}/>
         <ambientLight intensity={1.5} />
         <spotLight position={[10,15,10]} angle={0.3} />
         <Model3/>

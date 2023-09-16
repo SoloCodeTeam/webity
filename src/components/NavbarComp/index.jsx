@@ -2,6 +2,7 @@ import './style.css'
 import { useTranslation } from "react-i18next";
 import { useRef, useState } from 'react';
 import { LangSelect } from '../../locales';
+import { DarkLight } from '../darkLight';
 
 export function NavbarComp() {
     const NavBtn1 = useRef();
@@ -33,6 +34,7 @@ export function NavbarComp() {
                     <li onClick={()=>{window.location.href = '#features'}}>{t("navbar.1")}</li>
                     <li onClick={()=>{window.location.href = '#works'}}>{t("navbar.2")}</li>
                     <li href="tel:+998940870509">+998 94 087 05 09</li>
+                    {/* <li><DarkLight/></li> */}
                 </ul>
             </div>
             <ul className='NavbarCompMenu' ref={NavCompMenu}>

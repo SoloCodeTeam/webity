@@ -1,5 +1,9 @@
 .ProjectImage{
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+}
+.ProjectImage img{
+    margin: 2%;
 }

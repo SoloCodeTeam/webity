@@ -7,10 +7,6 @@ export function AboutComp() {
     const [faderight, setFaderight] = useState('fade-right')
     const [fadeleft, setFadeleft] = useState('fade-left')
     const { t, i18n } = useTranslation();
-    if(window.screen.width < 801){
-        setFadeleft('fade-up')
-        setFaderight('fade-up')
-    }
     return(
         <div className="AboutComp" id="features">
             <h1 data-aos="zoom-in">{t("about.0")}</h1>

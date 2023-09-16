@@ -17,8 +17,9 @@
 }
 .FooterComp h3{
     width: 15vw;
-    font-size: 1.5vw;
+    font-size: 1.8vw;
     margin-bottom: 1vw;
+    font-weight: 400;
 }
 .FooterComp ul{
     display: flex;
@@ -28,7 +29,7 @@
 .FooterComp ul li{
     display: flex;
     flex-direction: column;
-    margin: 0 5%;
+    margin: 0 5.3%;
 }
 .FooterComp p{
     text-align: center;

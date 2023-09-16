@@ -1,5 +1,5 @@
 .LangSelect{
-    width: 6.5%;
+    width: 6%;
     z-index: 5;
     display: flex;
     align-items: center;
@@ -22,7 +22,7 @@
     color: var(--white);
 }
 .LangBtn i, .LangBtnCls i{
-    margin-left: 5%;
+    margin-left: 6%;
 }
 .LangBtnCls{
     display: none;
@@ -43,7 +43,7 @@
 .LangList button{
     background-color: rgba(0, 0, 0, 0);
     color: var(--white);
-    font-size: 1.2vw;
+    font-size: 1.4vw;
     width: 100%;
     margin: 2% 0;
 }
