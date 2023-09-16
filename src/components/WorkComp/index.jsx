@@ -28,8 +28,7 @@ export function WorkComp() {
         <div className="WorkList">
             {type == "video" ? <ProjectVideo/> :
             type == "logo" ? <ProjectImage/> :
-            type == "elem" ? <ProjectAudio/> :
-            type == "3d" ? <Project3D/> : <Project3D/>}
+            type == "elem" ? <ProjectAudio/> :null}
         </div>
        </div>
    )

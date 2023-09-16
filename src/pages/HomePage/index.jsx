@@ -15,7 +15,6 @@ export function HomePage() {
         <NavbarComp/>
         <HeaderComp/>
         <AboutComp/>
-        <WorkComp/>
         <InfoComp/>
         <MessageComp/>
         <FooterComp/>
