@@ -24,11 +24,11 @@ export function MessageComp() {
     };
     return(
         <div className="MessageComp">
-            <h1>{t("message.0")}</h1>
+            <h1 data-aos="zoom-in">{t("message.0")}</h1>
             <GearAnimation/>
-            <p>{t("message.1")}</p>
+            <p data-aos="fade-down">{t("message.1")}</p>
             <div className="MessageBox">
-                <form onSubmit={(e) => {e.preventDefault();sendTelegram();}}>
+                <form data-aos="fade-up" onSubmit={(e) => {e.preventDefault();sendTelegram();}}>
                     <h2>{t("message.3")}</h2>
                     <span>
                         <input ref={name} type="text" required placeholder={t("message.4")}/>
@@ -38,11 +38,11 @@ export function MessageComp() {
                     <button type="submit"><i className="fa-solid fa-message"/>  {t("message.7")}</button>
                 </form>
                 <div className="LinksBox">
-                    <a href="https://instagram.com" className="fa-brands fa-instagram"></a>
-                    <a href="https://facebook.com" className="fa-brands fa-facebook"></a>
-                    <a href="https://t.me/" className="fa-brands fa-telegram"></a>
-                    <a href="https://twitter.com" className="fa-brands fa-twitter"></a>
-                    <a href="tel:+998940870509" className="fa-solid fa-phone"></a>
+                    <a data-aos="fade-up" href="https://instagram.com" className="fa-brands fa-instagram"></a>
+                    <a data-aos="fade-up" href="https://facebook.com" className="fa-brands fa-facebook"></a>
+                    <a data-aos="fade-up" href="https://t.me/" className="fa-brands fa-telegram"></a>
+                    <a data-aos="fade-up" href="https://twitter.com" className="fa-brands fa-twitter"></a>
+                    <a data-aos="fade-up" href="tel:+998940870509" className="fa-solid fa-phone"></a>
                 </div>
             </div>
         </div>

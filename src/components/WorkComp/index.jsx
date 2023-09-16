@@ -14,7 +14,7 @@ export function WorkComp() {
         await setType(e.target.value)
     }
    return(
-       <div className="WorkComp">
+       <div className="WorkComp" id='works'>
         <div className="overlay"></div>
         <h2 data-aos="zoom-in">{t("works.0")}</h2>
         <GearAnimation/>

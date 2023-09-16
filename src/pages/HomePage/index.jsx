@@ -9,7 +9,7 @@ import { MessageComp } from "../../components/MessageComp";
 export function HomePage() {
    return(
        <div className="HomePage">
-        <a href="#body" className="toUpSide"><i className="fa-solid fa-caret-up"></i></a>
+        <a onClick={()=>{window.location.href = '#body'}} className="toUpSide"><i className="fa-solid fa-caret-up"></i></a>
         <NavbarComp/>
         <HeaderComp/>
         <AboutComp/>

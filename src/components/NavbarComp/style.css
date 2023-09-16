@@ -9,8 +9,6 @@
 }
 .NavbarComp h1{
     font-size: 2.6vw;
-}
-.NavbarComp h1 a{
     cursor: default;
     color: var(--white);
 }
@@ -33,14 +31,12 @@
     cursor: pointer;
     padding: 3%;
     border-top: .16vw solid rgba(16, 22, 54, 0.0);
+    font-size: 1.22vw;
+    color: var(--white);
 }
 .NavbarCompList li:hover{
     border-top: .16vw solid #32B0EE;
 	background-color: transparent;
-}
-.NavbarCompList li a{
-    font-size: 1.22vw;
-    color: var(--white);
 }
 .NavbarCompMenu{
     z-index: 1;

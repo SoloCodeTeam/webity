@@ -22,33 +22,25 @@ export function NavbarComp() {
         NavBtn1.current.style.display = "block"
         NavBtn2.current.style.display = "none"
     }
-    // window.addEventListener('scroll', () => {
-    //     if(window.scrollY == 700) {
-    //         setColor('#0eb493')
-    //     }
-    //     if(window.scrollY !== 700) {
-    //         setColor('#10163633')
-    //     }
-    // })
     return(
         <div className="NavComp">
             <div className="NavbarComp">.
-                <h1><a href="#body">webity.uz</a></h1>
+                <h1 onClick={()=>{window.location.href = '#body'}}>webity.uz</h1>
                 <LangSelect/>
                 <button className='NavbarCompBtn1' ref={NavBtn1} onClick={NavBtn}><i className='fa-solid fa-bars'></i></button>
                 <button className='NavbarCompBtn2' ref={NavBtn2} onClick={NavBtnCls}><i className='fa-solid fa-xmark'></i></button>
                 <ul className='NavbarCompList'>
-                    <li><a href='#body'>{t("navbar.0")}</a></li>
-                    <li><a href='#features'>{t("navbar.1")}</a></li>
-                    <li><a href='#works'>{t("navbar.2")}</a></li>
-                    <li><a href="tel:+998940870509">+998 94 087 05 09</a></li>
+                    <li onClick={()=>{window.location.href = '#body'}}>{t("navbar.0")}</li>
+                    <li onClick={()=>{window.location.href = '#features'}}>{t("navbar.1")}</li>
+                    <li onClick={()=>{window.location.href = '#works'}}>{t("navbar.2")}</li>
+                    <li href="tel:+998940870509">+998 94 087 05 09</li>
                 </ul>
             </div>
             <ul className='NavbarCompMenu' ref={NavCompMenu}>
-                <li onClick={NavBtnCls}><a href='#body'>{t("navbar.0")}</a></li>
-                <li onClick={NavBtnCls}><a href='#features'>{t("navbar.1")}</a></li>
-                <li onClick={NavBtnCls}><a href='#works'>{t("navbar.2")}</a></li>
-                <li onClick={NavBtnCls}><a href="tel:+998940870509">+998 94 087 05 09</a></li>
+                    <li onClick={()=>{window.location.href = '#body'}}>{t("navbar.0")}</li>
+                    <li onClick={()=>{window.location.href = '#features'}}>{t("navbar.1")}</li>
+                    <li onClick={()=>{window.location.href = '#works'}}>{t("navbar.2")}</li>
+                    <li href="tel:+998940870509">+998 94 087 05 09</li>
             </ul>
         </div>
     )

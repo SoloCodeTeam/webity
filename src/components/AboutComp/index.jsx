@@ -12,7 +12,7 @@ export function AboutComp() {
         setFaderight('fade-up')
     }
     return(
-        <div className="AboutComp">
+        <div className="AboutComp" id="features">
             <h1 data-aos="zoom-in">{t("about.0")}</h1>
             <GearAnimation/>
             <ul>
