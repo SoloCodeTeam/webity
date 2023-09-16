@@ -27,12 +27,12 @@ export function LangSelect() {
     }
     return(
         <div className="LangSelect">
-            <button className='LangBtn' ref={LanBtn} onClick={LangBtn}>{window.localStorage.getItem('lang')}<i className='fa-solid fa-caret-down'></i></button>
-            <button className='LangBtnCls' ref={LanBtnCls} onClick={LangBtnCls}>{window.localStorage.getItem('lang')}<i className='fa-solid fa-caret-up'></i></button>
+            <button className='LangBtn' ref={LanBtn} onClick={LangBtn}>{window.localStorage.getItem('lng')}<i className='fa-solid fa-caret-down'></i></button>
+            <button className='LangBtnCls' ref={LanBtnCls} onClick={LangBtnCls}>{window.localStorage.getItem('lng')}<i className='fa-solid fa-caret-up'></i></button>
             <div className="LangList" ref={LangList}>
-                <button onClick={LangSel} id="uz" ref={langug}>🇺🇿</button>
-                <button onClick={LangSel} id="en" ref={langug}>🇺🇸</button>
-                <button onClick={LangSel} id="ru" ref={langug}>🇷🇺</button>
+                <button onClick={LangSel} id="uz" ref={langug}>uz</button>
+                <button onClick={LangSel} id="en" ref={langug}>en</button>
+                <button onClick={LangSel} id="ru" ref={langug}>ru</button>
             </div>
         </div>
     )
