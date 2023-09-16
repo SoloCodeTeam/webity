@@ -4,13 +4,14 @@
 }
 .MessageComp h1{
     color: var(--lime);
-    font-size: 2.5vw;
+    font-size: 3vw;
+    font-weight: 500;
+    margin: 2%;
 }
 .MessageComp p{
+    margin: 2%;
+    font-size: 1.6vw;
     color: var(--grey);
-    font-weight: bold;
-    margin: 4% 0;
-    font-size: 1.5vw;
 }
 .MessageComp .MessageBox{
     display: flex;
@@ -67,12 +68,12 @@
     margin: 0 2%;
 }
 .MessageComp .LinksBox a{
-    margin: 20% 5%;
+    margin: 50% 5%;
     font-size: 2vw;
     color: var(--grey);
 }
 .MessageComp .LinksBox a:hover{
-    transform: scale(1.2);
+    transform: scale(1.5);
 }
 @media(max-width: 1000px){
     .MessageComp h1{

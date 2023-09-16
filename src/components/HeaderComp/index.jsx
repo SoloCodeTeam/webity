@@ -4,8 +4,7 @@ import { useTranslation } from "react-i18next";
 export function HeaderComp() {
     const { t, i18n } = useTranslation();
     return(
-        <div className="HeaderComp">
-            {/* <img src="https://res.cloudinary.com/dnuh1ejtz/image/upload/v1693499513/webity/banner_ia2yxq.jpg" alt="" /> */}
+        <div className="HeaderComp" id='body'>
             <div className="HeaderTexts">
                 <h1 data-aos-duration="1000" data-aos="fade-up">webity.uz</h1>
                 <h2 data-aos="fade-right">{t("header.0")}</h2>
