@@ -7,9 +7,9 @@ export function LangSelect() {
     const LanBtnCls = useRef();
     const langug = useRef();
     const LangSel = (e) => {
-        if(e.target.id == "uz") {window.localStorage.setItem('lng','uz');document.cookie="uz"}
-        if(e.target.id == "en") {window.localStorage.setItem('lng','en');document.cookie="en"}
-        if(e.target.id == "ru") {window.localStorage.setItem('lng','ru');document.cookie="ru"}
+        if(e.target.id == "uz") {window.localStorage.setItem('lng','uz');}
+        if(e.target.id == "en") {window.localStorage.setItem('lng','en');}
+        if(e.target.id == "ru") {window.localStorage.setItem('lng','ru');}
         LangList.current.style.transform = "scale(0)"
         LanBtn.current.style.display = "flex"
         LanBtnCls.current.style.display = "none"

@@ -10,7 +10,7 @@ import { useState } from 'react';
 export function WorkComp() {
     const { t, i18n } = useTranslation();
     const [type, setType] = useState()
-    const ChangeType= async (e) => {
+    const ChangeType = async (e) => {
         await setType(e.target.value)
     }
    return(
