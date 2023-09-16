@@ -43,7 +43,7 @@
         font-size: 2.5vw;
     }
     .FooterComp ul li{
-        margin: 5% 0;
+        margin: 5% 4%;
     }
     .FooterComp p{
         font-size: 2vw;
@@ -59,7 +59,7 @@
         font-size: 3.2vw;
     }
     .FooterComp ul li{
-        margin: 5% 15%;
+        margin: 5% 17%;
     }
     .FooterComp p{
         font-size: 2.5vw;
@@ -76,10 +76,19 @@
     }
     .FooterComp ul li{
         align-items: center;
-        margin: 5% 0;
+        margin: 5% 3%;
     }
     .FooterComp h3{
         width: 100%;
         text-align: center;
+    }
+    .FooterComp a{
+        font-size: 3.5vw;
+    }
+    .FooterComp h3{
+        font-size: 5vw;
+    }
+    .FooterComp p{
+        font-size: 3vw;
     }
 }

@@ -4,96 +4,120 @@ import { Canvas } from '@react-three/fiber';
 import {OrbitControls, useGLTF,useAnimations} from "@react-three/drei"
 
 export function Model1(props) {
-  const group = useRef()
-  const { nodes, materials, animations } = useGLTF('/models/clock/scene.gltf')
-  const { actions } = useAnimations(animations, group)
+  const { nodes, materials } = useGLTF('/models/mouse/scene.gltf')
   return (
-    <group ref={group} {...props} dispose={null}>
-      <group name="Sketchfab_Scene">
-        <group name="Sketchfab_model" rotation={[-Math.PI / 2, 0, 0]}>
-          <group name="clockfbx" rotation={[Math.PI / 2, 0, 0]} scale={0.01}>
-            <group name="Object_2">
-              <group name="RootNode">
-                <group name="Plane002" position={[0.234, 14.998, 0]} rotation={[-2.951, 0, 0]} scale={100}>
-                  <mesh name="Plane002_metal_0" geometry={nodes.Plane002_metal_0.geometry} material={materials.metal} />
-                </group>
-                <group name="Plane003" position={[0.121, 14.998, 0]} rotation={[-0.966, 0, 0]} scale={100}>
-                  <mesh name="Plane003_metal_0" geometry={nodes.Plane003_metal_0.geometry} material={materials.metal} />
-                </group>
-                <group name="Plane" position={[0, 14.998, 0]} rotation={[-Math.PI / 2, 0, 0]} scale={100}>
-                  <mesh name="Plane_Material_0" geometry={nodes.Plane_Material_0.geometry} material={materials.Material} />
-                </group>
-                <group name="Cylinder" position={[0, 15.122, 0]} rotation={[-Math.PI / 2, 0, 0]} scale={100}>
-                  <mesh name="Cylinder_metal_0" geometry={nodes.Cylinder_metal_0.geometry} material={materials.metal} />
-                </group>
-                <group name="Plane001" position={[0.892, 14.998, 0]} rotation={[-Math.PI / 2, 0, 0]} scale={100}>
-                  <mesh name="Plane001_Material001_0" geometry={nodes.Plane001_Material001_0.geometry} material={materials['Material.001']} />
-                </group>
-                <group name="Cylinder001" position={[0.038, 14.998, 0]} rotation={[-Math.PI / 2, 0, 0]} scale={100}>
-                  <mesh name="Cylinder001_metal_0" geometry={nodes.Cylinder001_metal_0.geometry} material={materials.metal} />
-                </group>
-                <group name="Plane004" position={[0, 15.006, 0]} rotation={[-Math.PI / 2, 0, 0]} scale={100}>
-                  <mesh name="Plane004_metal_0" geometry={nodes.Plane004_metal_0.geometry} material={materials.metal} />
-                </group>
-                <group name="Plane005" position={[0, 14.994, 0]} rotation={[-Math.PI / 2, 0, 0]} scale={100}>
-                  <mesh name="Plane005_metal_0" geometry={nodes.Plane005_metal_0.geometry} material={materials.metal} />
-                </group>
-                <group name="Cube" position={[0.038, 14.998, 0]} rotation={[-Math.PI / 2, 0, 0]} scale={100}>
-                  <mesh name="Cube_Material002_0" geometry={nodes.Cube_Material002_0.geometry} material={materials['Material.002']} />
-                </group>
-              </group>
-            </group>
-          </group>
-        </group>
+    <group {...props} dispose={null}>
+      <group rotation={[-Math.PI / 2, 0, 0]}  scale={0.3}>
+        <mesh geometry={nodes.R_Mouse_00_R_Mouse_0.geometry} material={materials.R_Mouse} position={[0, 3.403, 0.868]} />
       </group>
     </group>
   )
 }
 export function Model2(props) {
-    const { nodes, materials } = useGLTF('/models/garbage/scene.gltf')
-    return (
-      <group {...props} dispose={null}>
-        <group rotation={[-Math.PI / 2, 0, 0]} scale={0.1}>
-          <group rotation={[Math.PI / 2, 0, 0]}>
-            <group scale={[1, 1.06, 1]}>
-              <mesh geometry={nodes.Object_4.geometry} material={materials.Mlleimer_Boden} />
-              <mesh geometry={nodes.Object_5.geometry} material={materials.Mlleimer_Gitter_2} />
-            </group>
-          </group>
-        </group>
-      </group>
-    )
-}
-export function Model3(props) {
-  const { nodes, materials } = useGLTF('models/pot/scene.gltf')
+  const { nodes, materials } = useGLTF('/models/drone/scene.gltf')
   return (
     <group {...props} dispose={null}>
-      <mesh geometry={nodes.Cylinder_Material002_0.geometry} material={materials['Material.002']} position={[0,0,0]} rotation={[-Math.PI / 2, 0, 0]} scale={10} />
+      <group rotation={[-Math.PI / 2, 0, 0]} scale={1.2}>
+        <mesh geometry={nodes.Object_2.geometry} material={materials.black} />
+        <mesh geometry={nodes.Object_3.geometry} material={materials.black} />
+        <mesh geometry={nodes.Object_4.geometry} material={materials.black} />
+        <mesh geometry={nodes.Object_5.geometry} material={materials.black} />
+        <mesh geometry={nodes.Object_6.geometry} material={materials.chrome} />
+        <mesh geometry={nodes.Object_7.geometry} material={materials.glass} />
+        <mesh geometry={nodes.Object_8.geometry} material={materials.grey} />
+        <lineSegments geometry={nodes.Object_9.geometry} material={materials.grey} />
+        <mesh geometry={nodes.Object_10.geometry} material={materials.grey} />
+        <mesh geometry={nodes.Object_11.geometry} material={materials.grey} />
+      </group>
+    </group>
+  )
+}
+export function Model3(props) {
+  const { nodes, materials } = useGLTF('/models/iphone/scene.gltf')
+  return (
+    <group {...props} dispose={null}>
+      <group scale={0.2} position={[0,-1.5,0]}>
+        <mesh geometry={nodes.UCttAeyROPsgmix.geometry} material={materials.KtvhjlxyToKjYkE} />
+        <mesh geometry={nodes.XbtrdVaOWYmkEiU.geometry} material={materials.YiceMpFVTpnmoaq} />
+        <mesh geometry={nodes.YbXWdqEcjbfTKuN_0.geometry} material={materials.GFNYbWjyDVGUwJd} />
+        <mesh geometry={nodes.rrqFqyfckTuyRuI.geometry} material={materials.CSNzlRnZuvCyxNL} />
+        <mesh geometry={nodes.lxsKwuOPNvmzBKg_0.geometry} material={materials.KhJiSWFcsscOusf} />
+        <mesh geometry={nodes.alSOKOYgFKIcUtR.geometry} material={materials.sWxYOtHGWTcXRMx} />
+        <mesh geometry={nodes.FjhETOCBEeiBmch.geometry} material={materials.KtvhjlxyToKjYkE} />
+        <mesh geometry={nodes.AbxQOpRbGREHXRG.geometry} material={materials.IDdMwJVCyuFpUnA} />
+        <mesh geometry={nodes.tWfjYtMZCfucxRt.geometry} material={materials.fdfRsQCrfvPBPfQ} />
+        <mesh geometry={nodes.vauUojKrKkLLDtY.geometry} material={materials.HvAGJeQTAiWbceX} />
+        <mesh geometry={nodes.yqmgDmvGsmuPwXx_0.geometry} material={materials.bmOZLlCkCKhIIVe} />
+        <mesh geometry={nodes.wjSYkRykuFHJNPw.geometry} material={materials.KxzouvBYEgdZhMo} />
+        <mesh geometry={nodes.rJeCWUNsVVXXAbI.geometry} material={materials.psePdsxZprlxGrw} />
+        <mesh geometry={nodes.rqSonbcVVSPWFfa_0.geometry} material={materials.jFPFAvCbiqflbQV} />
+        <mesh geometry={nodes.OMkeKbwVHRBkBwM.geometry} material={materials.IkWzRHNnDaKQXIi} />
+        <mesh geometry={nodes.DLfIUIalXuQjJsL.geometry} material={materials.pBMikDFQfUOsKkr} />
+        <mesh geometry={nodes.qjXEDwnnBYwWcJn.geometry} material={materials.tfbCjiZQaZkmtHx} />
+        <mesh geometry={nodes.FGDSbHbILfUmiaH.geometry} material={materials.tfbCjiZQaZkmtHx} />
+        <mesh geometry={nodes.jQXfQpudiYObSGp.geometry} material={materials.sWxYOtHGWTcXRMx} />
+        <mesh geometry={nodes.knexoFNknstHgiO.geometry} material={materials.KtvhjlxyToKjYkE} />
+        <mesh geometry={nodes.FaUtifOQSMTXiZM.geometry} material={materials.KtvhjlxyToKjYkE} />
+        <mesh geometry={nodes.BhvzCWikxrVeDTV.geometry} material={materials.LtesZnUOMbBEAoi} />
+        <mesh geometry={nodes.MMkajxMNWrwGQfi.geometry} material={materials.LtesZnUOMbBEAoi} />
+        <mesh geometry={nodes.YnrVhXEUDbStWCs.geometry} material={materials.EJpkIDZfhPDUzel} />
+        <mesh geometry={nodes.ePYqawqlCJbCsNi.geometry} material={materials.CSNzlRnZuvCyxNL} />
+        <mesh geometry={nodes.RGbIswEcCTzqNsn_0.geometry} material={materials.FlDKBWPodPcEeGy} />
+        <mesh geometry={nodes.IuMgFUHIyRWENxG_0.geometry} material={materials.LcWBQfBvCzxThpp} />
+        <mesh geometry={nodes.dNDonqESZOxUcei_0.geometry} material={materials.LUbRMhkIhuekQRK} />
+        <mesh geometry={nodes.XeFHhVBtRZWPGxR.geometry} material={materials.tfbCjiZQaZkmtHx} />
+        <mesh geometry={nodes.nJYGEbPQybRBbiN.geometry} material={materials.tDZQoaroJfCIQtF} />
+        <mesh geometry={nodes.JyAbjubWrOdfygC_0.geometry} material={materials.jFPFAvCbiqflbQV} />
+        <mesh geometry={nodes.nxFoHsySvfcSLvp.geometry} material={materials.KtvhjlxyToKjYkE} />
+        <mesh geometry={nodes.oCklTGvTZoDWJrC_0.geometry} material={materials.tfbCjiZQaZkmtHx} />
+        <mesh geometry={nodes.QaGkMzxNzKPcqRy.geometry} material={materials.iEhZxWeNLTDdgxm} />
+        <mesh geometry={nodes.KUDomTaVduCyevu.geometry} material={materials.KtvhjlxyToKjYkE} />
+        <mesh geometry={nodes.QOfJIBEXOvXfSUh.geometry} material={materials.vsSJQngPxBJTVZb} />
+        <mesh geometry={nodes.RUMRNTkptJGDMpy.geometry} material={materials.LJBezuBxKRoHnAp} />
+        <mesh geometry={nodes.aYjPeBrpBRopJbp.geometry} material={materials.xHgtbqndQshkTKG} />
+        <mesh geometry={nodes.BeQtuLXtpSTrzAH.geometry} material={materials.initialShadingGroup} />
+        <mesh geometry={nodes.tWBbDznHihIxXam.geometry} material={materials.OStzgRHtVBLWwiD} />
+        <mesh geometry={nodes.PLFTnNQeqVAxicS.geometry} material={materials.BLpVAsLWNICZYGG} />
+        <mesh geometry={nodes.GWEiavWnRxbogtw_0.geometry} material={materials.FsunUcGyajFpQmW} />
+        <mesh geometry={nodes.RFqaqXLpuCDBIGV_0.geometry} material={materials.nJRBoEsOhzMSqCz} />
+        <mesh geometry={nodes.JUTNJcWwqyxbGDZ_0.geometry} material={materials.LJBezuBxKRoHnAp} />
+        <mesh geometry={nodes.BDLCJBydsNjizog_0.geometry} material={materials.fGwijctGaiRaYJC} />
+        <mesh geometry={nodes.zPPSOvNamLQVyvv.geometry} material={materials.qEGySvwsouNnVcn} />
+        <mesh geometry={nodes.YPGjoywokSeoQFr.geometry} material={materials.KtvhjlxyToKjYkE} />
+        <mesh geometry={nodes.MoTJNOoMxqdxNvQ.geometry} material={materials.IBtgGxCVyZhjKZM} />
+        <mesh geometry={nodes.mZxrNiCtMrMjOMv.geometry} material={materials.WqbAhnIPgrrhfXS} />
+        <mesh geometry={nodes.tQCDizUpBYNcvFA.geometry} material={materials.LtesZnUOMbBEAoi} />
+        <mesh geometry={nodes.CAQeTxdpUcbxQyT.geometry} material={materials.KtvhjlxyToKjYkE} />
+        <mesh geometry={nodes.qsTxqfACkdoWeLQ.geometry} material={materials.IBtgGxCVyZhjKZM} />
+        <mesh geometry={nodes.aVmapfDgqkPkjUf.geometry} material={materials.WqbAhnIPgrrhfXS} />
+        <mesh geometry={nodes.lgnGJJmNebyRbHq_0.geometry} material={materials.rNCplyWedyfORFh} />
+      </group>
     </group>
   )
 }
 
 export function Project3D(){
     return(
-        <div className="Project3D">
-          <Canvas className="Canvas">
-            <OrbitControls autoRotate={true} enableZoom={false} rotateSpeed={2} autoRotateSpeed={5}/>
-            <ambientLight intensity={1.5} />
-            <spotLight position={[10,15,10]} angle={0.3} />
-            <Model1 />
-          </Canvas>
-          <Canvas className="Canvas">
-            <OrbitControls autoRotate={true} enableZoom={false} rotateSpeed={2} autoRotateSpeed={5}/>
-            <ambientLight intensity={1.5} />
-            <spotLight position={[10,15,10]} angle={0.3} />
-            <Model2/>
-          </Canvas>
-          <Canvas className="Canvas">
-            <OrbitControls autoRotate={true} enableZoom={false} rotateSpeed={2} autoRotateSpeed={5}/>
-            <ambientLight intensity={1.5} />
-            <spotLight position={[10,15,10]} angle={0.3} />
-            <Model3/>
-          </Canvas>
-        </div>
+      <div className="Project3D">
+      <Canvas className="Canvas">
+        <OrbitControls autoRotate={true} enableZoom={false} rotateSpeed={2} autoRotateSpeed={5} target={-0.061775,10,0}/>
+        <ambientLight intensity={1.5} />
+        <OrbitControls autoRotate={true} enableZoom={false} rotateSpeed={2} autoRotateSpeed={5} target={[0,0,0]}/>
+        <spotLight position={[10,15,10]} angle={0.3} />
+        <Model1 />
+      </Canvas>
+      <Canvas className="Canvas">
+        <OrbitControls autoRotate={true} enableZoom={false} rotateSpeed={2} autoRotateSpeed={5} target={-0.061775,10,0}/>
+        <ambientLight intensity={1.5} />
+        <spotLight position={[10,15,10]} angle={0.3} />
+        <Model2/>
+      </Canvas>
+      <Canvas className="Canvas">
+        <OrbitControls autoRotate={true} enableZoom={false} rotateSpeed={2} autoRotateSpeed={5} target={-0.061775,10,0}/>
+        <ambientLight intensity={1.5} />
+        <spotLight position={[10,15,10]} angle={0.3} />
+        <Model3/>
+      </Canvas>
+    </div>
     )
 }

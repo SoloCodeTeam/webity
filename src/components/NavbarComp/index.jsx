@@ -2,7 +2,6 @@ import './style.css'
 import { useTranslation } from "react-i18next";
 import { useRef, useState } from 'react';
 import { LangSelect } from '../../locales';
-import { use } from 'i18next';
 
 export function NavbarComp() {
     const NavBtn1 = useRef();

@@ -23,6 +23,7 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
+   overflow-y: scroll;
   overflow-x: hidden;
 }
 :root{
@@ -31,6 +32,7 @@ body {
   --gray: rgb(226, 226, 226);
   --grey: #6a737b;
   --lime: #0eb493;
+  --white-gray: rgb(241, 241, 241);
 }
 .toUpSide{
   cursor: pointer;
@@ -44,7 +46,9 @@ body {
   color: var(--white);
   color: #0feb9e;
 }
-
+html{
+ scroll-behavior: smooth;
+}
 @media screen and (max-width: 600px) {
   .toUpSide{
     cursor: default;

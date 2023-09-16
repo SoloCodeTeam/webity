@@ -19,7 +19,7 @@ i18next
       translation: en
     }
   },
-  lng: document.cookie,
+  lng: window.localStorage.getItem("lng"),
   fallbackLng: 'uz',
   detection:{
     order:['htmlTag' , 'cookie', 'localStorage', 'path', 'subdomain'],

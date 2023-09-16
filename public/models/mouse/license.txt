@@ -1,0 +1,11 @@
+Model Information:
+* title:	PC Mouse type-R
+* source:	https://sketchfab.com/3d-models/pc-mouse-type-r-b782768a5ec1453fb2587bd9d82aaf7e
+* author:	rubykamen (https://sketchfab.com/rubykamen)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "PC Mouse type-R" (https://sketchfab.com/3d-models/pc-mouse-type-r-b782768a5ec1453fb2587bd9d82aaf7e) by rubykamen (https://sketchfab.com/rubykamen) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
